@@ -18,7 +18,7 @@
 ## 🧭 At a glance · 一览
 | Dimension · 维度 | Highlights · 亮点 |
 |---|---|
-| **Founder · 创业** | Built DealMesh 0→1; personally ran PMF validation with **20+ PE/VC institutions** in China and abroad · 亲自与国内外 20 余家 PE/VC 机构完成 PMF 验证 |
+| **Founder · 创业** | Built DealMesh 0→1; interviewed **20+ PE/VC institutions** in China and abroad. Early demand validation and paid validation are separate; 20+ is not a paying-customer count · 从 0 到 1 构建 DealMesh；访谈国内外 20 余家 PE/VC 机构。早期需求验证与付费验证另计，20+ 不是付费客户数 |
 | **AI Agents · 智能体** | Parallel coding-agent orchestration, multi-model routing, evaluation & validation pipelines, published MCP server |
 | **Quant · 量化** | Huatai Securities quant intern — CSI 1000 factors, **Rank IC 0.08–0.10**, long-short **Sharpe 2.57–3.23** |
 | **Finance / DD · 尽调** | EY ITDD intern — IT due diligence on retail, e-commerce and omnichannel deals |
@@ -35,7 +35,7 @@
 DealMesh 为每条投研结论生成可核验的 Trust Receipt：定位原文出处，并按 L0–L5 分级说明证据是否足以支撑结论。
 
 - 📏 **SEC public-data benchmark:** **3 / 252** false confirms, **3.0%** upper bound (k/n, 95% one-sided exact binomial upper bound)
-- 🤝 **PMF validated** with 20+ PE/VC institutions in China and abroad
+- 🤝 **Institution interviews:** 20+ PE/VC institutions in China and abroad. Early demand validation and paid validation are separate; no public amount or financing figure · 访谈国内外 20 余家 PE/VC 机构。早期需求验证与付费验证另计；付费验证无可公开金额，不附融资信息
 - 🛠️ **Built 0→1 end-to-end:** data pipeline → evidence binding → export gate → signed receipts → web app → cloud deploy
 - 🌏 Markets: Mainland China · Hong Kong · Singapore
 
