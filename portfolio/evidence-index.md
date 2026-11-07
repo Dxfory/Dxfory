@@ -1,0 +1,31 @@
+# 证据对应表
+
+申请方向：2027 Fall，NUS / HKU / HKUST，Quant / FinTech。
+
+整理日期：2026-11-07。本表只转写本目录已有证据页，以及当日用公开页面核对过的数字。不新造名次、贡献比例、收益或上线链接。
+
+**Agenthon 团队海报原 PDF：未收齐。** 本目录没有海报文件，没有海报 URL。海报行状态为进行中，不是已发布或已完成。
+
+官方 Final 榜与团队海报分开列。榜单数字只说明赛事名次和分数；海报数字只在原 PDF 补入并检查前作为待核口径，不写成赛事官方逐项认证。
+
+本表不收录成绩单、录取文件、证件、联系方式、客户与背调人、账户与交易明细、策略标识、私有仓库，以及需要登录的内部认证链接。主页 README 原有内容保持不动，本页不把其中未附证明的句子升格为新证据。
+
+| 经历 | 证据等级 | 核心数字及定义 | 证明文件 / 公开来源 | 对应项目证据页 | CV 或 PS 用途 | 状态 |
+|---|---|---|---|---|---|---|
+| Agenthon 2026｜官方 Final 榜（Team abc123） | 官方榜单 | T3 Simulation Final 第3/55，分数 3,249,452.2547（官网单元格为 3249452.2547）。同一队伍另有 T2 Forecasting 第8/87、T4 Explainability 第26/63，属跨赛道结果，不是额外奖项。分母采用官网各赛道 “of N”。名次是团队结果，不表示个人独立完成，也不包含海报上的吞吐或加速倍数。 | https://www.agenthon.net/ 。2026-11-07 核对官网 Final 榜：T3 第3名 abc123、分数 3249452.2547、页面分母 55；T2 第8名、分母 87；T4 第26名、分母 63。 | [agenthon.md](agenthon.md) | CV 可写团队赛道名次，并注明 Team abc123。PS 可把可核验的市场仿真作为 2027 Fall NUS/HKU/HKUST Quant/FinTech 动机；个人模块、队友分工与 AI 辅助须另述，不能从名次推出。 | 已完成（官方名次可核验；本行不含海报工程数字） |
+| Agenthon 2026｜团队 fastsim 技术海报（署名 Peidong / Yiping / Zheng，Team abc123） | 团队海报（非赛事官方逐项认证；原 PDF 未附） | 只按已有 agenthon.md 的海报口径，不与官网分数混用：Final 展示吞吐约 3.25M rows/s；同机中位 293×，仅指海报规定的同机比较基准，是非官方端到端加速，不是官方容器总计分提升；一致性 2,969 场景且 0 mismatches（2,969 = 95 + 2,274 + 600）；142 container gates；46 Rust tests；发布镜像 image 1.26。海报图中 54 scored teams 与官网 55 teams 是不同口径，名次分母仍用官网 55。署名只是团队关联线索，不替代正式成员记录。 | 无文件。原海报 PDF 本次未收齐；不生成替代 PDF，不放置下载链接。文字口径仅见 portfolio/agenthon.md。 | [agenthon.md](agenthon.md) | 在原 PDF 补入并完成可见性检查之前，CV 和 PS 不要把 3.25M rows/s、293×、2,969、142、46 或 image 1.26 写成已公开证明的完成成果。 | 进行中（PDF 待补；未发布，不记为已完成） |
+| Kaggle Home Credit — Credit Risk Model Stability（2024 金牌） | 第三方证书；公开仓库只证明管线文本，不证明贡献份额 | 证书载明团队第 9/3,856、Competition Gold Medalist，颁发日 2024-05-28，显示姓名 X. Dxfory。前 0.23% 是 9/3,856 的约数（9/3856≈0.233%），不是证书上的单独字段。金牌和第 9 名是团队结果，不是独立个人赛。团队人数、交叉验证分数、private leaderboard 精确分数和个人特征增量存在不同版本，本表不写。公开仓库上传日期不能证明比赛期间的代码贡献比例。 | [kaggle-gold-certificate.png](assets/kaggle-gold-certificate.png)（用户已授权公开；PNG 无 tEXt/EXIF）；https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/leaderboard （2026-11-07 可打开；静态页不含名次，名次以证书为准）；https://github.com/Dxfory/home-credit （public；README 描述 Polars 特征聚合、LightGBM/CatBoost 推理与融合）。 | [kaggle.md](kaggle.md) | CV 可写团队金牌与 9/3,856，并指向证书。PS 可按本人经历写时间感知的分组交叉验证、手工特征，以及信用风险随时间的泛化；不要写未定版的个人增量或精确分数。 | 已完成（证书已授权并纳入本分支） |
+| 香港量化交易大赛｜实盘组 | 本人确认（无公开个人证明链接） | 无已公开的名次、收益或管理规模。本表不补任何成绩数字。 | 无。正式公开参赛页出现可核实链接后再补。团队后台、策略标识、账户采集状态、费用与隐藏设置不在本仓库披露。 | [hong-kong-competition.md](hong-kong-competition.md) | CV 只写实盘组参赛中，不写名次或收益。PS 可写策略研究、交易系统接入、风险控制与验证流程；具体职责以日后的正式记录为准。没有链接就不要加链接。 | 进行中 |
+| QBX｜跨市场因子研究与验证工程 | 本人确认（公开证书未列入） | 经历范围是美股、港股、A 股，以及 L1、L2、L3 数据层级。这不是九种市场与层级组合都已有结果，也不是有效 alpha 个数、管理规模或实盘收益。搜索数量不当作有效 alpha 数量。不公布原始策略、交易账户或客户。 | 无公开可核验链接。平台协议证书需认证访问，故不列证书接口，也不列私有仓库。背调人身份与联系方式不公开。 | [qbx.md](qbx.md) | CV/PS 可写跨市场因子筛选、回测和口径对齐。须分开写运行成功、平台协议通过、研究假设成立。不要写成 QBX 原作者、持牌管理人或已管理某规模资金。 | 进行中（经历说明已写入；公开可核验证书未完成） |
+| EDGAR Filings MCP（PyPI：edgar-filings-mcp） | 正式发布（GitHub release 与 PyPI） | 正式版 v1.1.2，发布于 2026-09-21 18:03:46（北京时间；GitHub 时间为 2026-09-21T10:03:46Z）。4 个工具：定期报告交易代码；产品/业务/地区维度的 XBRL 分部收入；BDC 非应计及抽取方法；Form 4 明细，并区分公开市场交易、授予、行权与代扣税。返回中尽量带 accession、期间、概念与 EDGAR 链接。BDC 非应计不等于违约率，抽取缺失不解释为零风险。不从下载次数推断用户数，也不宣称从零搭建 SEC 数据库。MIT，底层使用 edgartools。 | https://github.com/Dxfory/edgar-mcp （public）；https://github.com/Dxfory/edgar-mcp/releases/tag/v1.1.2 （正式 release，非 draft）；https://pypi.org/project/edgar-filings-mcp/ （2026-11-07 可见版本 1.1.2）。 | [edgar-mcp.md](edgar-mcp.md) | CV 可写已发布的金融披露 MCP、版本号和四类接口。PS 可写“模型回答回查到 SEC 原文”的 FinTech 数据工程。不要写用户规模或自建数据库。 | 已完成（已公开发布） |
+| A 股五模型动态集成研究框架 | 公开仓库 README（设计参数，不是业绩） | 公开 README 写明的框架设计，不是收益、IC、Sharpe 或有效 alpha 个数：5 个模型为 LightGBM、XGBoost、SVR、Random Forest、Linear Regression；约 79 个候选因子，类别为基本面、估值、技术、风险；按波动状态选择 24/36/48 个月训练窗；约 60 个交易日再训练、10 个交易日调仓、持有 Top 5；集成权重使用未来收益 MSE 与三分类准确性项的 combined loss，结合最近 3 轮损失与弱模型惩罚；绝对相关大于 0.6 的相关簇各留一个代表因子。行业中性化、交叉验证出现在 roadmap，不算已完成。不把其他经历的 IC/Sharpe 迁到本项。仓库依赖聚宽 API。 | https://github.com/Dxfory/5machine_learning （public，默认分支 main）；https://github.com/Dxfory/5machine_learning/blob/main/README.md 。2026-11-07 与上述设计参数一致。 | [five-model-ensemble.md](five-model-ensemble.md) | CV/PS 可写 JoinQuant 上的滚动训练与动态加权研究框架。不要写年化收益或“79 个有效因子”。与其他实习或研究经历的个人贡献关系，确认后再写入。 | 已完成（公开方法说明已在仓库；未声称投资业绩） |
+| 加密资产转账的时序网络 motif（本科研究代码） | 公开代码与图形资产（不含论文分数） | 本项不写论文分数或样本量。公开仓库含 notebook、motif 分析、随机零模型、中心性与异常分析，以及 1 小时/1 日 motif 热图、交易活动图和地址网络图。可定位 DAI、USDC、USDT、UST、LUNA 相关图形。不把这些资产统称为 ERC20 稳定币。 | https://github.com/Dxfory/Understanding-cryptocurrency-transactions-with-network-motifs （public，默认分支 main）。该仓库根目录没有 README.md，因此只链仓库根，不链不存在的 README 文件。 | [network-motifs.md](network-motifs.md) | CV 可写本科研究的公开代码入口。PS 可写时序网络 motif 与随机零模型对照。论文原文、评分页和样本量未纳入本目录，取得原文前不写入分数。 | 已完成（公开代码入口已在）；论文证据未纳入，不标为论文成绩完成 |
+
+## 怎么用这张表
+
+- 状态以“已完成”开头的行可以写入对外 CV，但要同时遵守该行定义：团队成绩标明团队，框架参数不写成业绩，论文分数不写。
+- 海报行是进行中。原 PDF 未附入之前，不要把 3.25M rows/s、293×、2,969、142、46 或 image 1.26 写成已公开证明的完成成果。
+- 香港实盘组与 QBX 公开核验都还在进行中，没有链接就保持无链接。
+- 合并进 `main` 之前，这些相对路径只在本分支存在，不能当作已经上线。
+
+CSV 与本表同行同序：[evidence-index.csv](evidence-index.csv)。

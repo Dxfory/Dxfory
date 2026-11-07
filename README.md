@@ -66,6 +66,10 @@ DealMesh 为每条投研结论生成可核验的 Trust Receipt：定位原文出
 | [**5machine_learning**](https://github.com/Dxfory/5machine_learning) | ML pipeline for A-share factor modeling |
 | [**Understanding-crypto**](https://github.com/Dxfory/Understanding-cryptocurrency-transactions-with-network-motifs) | Network-motif analysis of stablecoin transactions |
 
+## 📂 Portfolio · 作品证据
+
+2027 Fall Quant / FinTech（NUS · HKU · HKUST）入口：[作品目录](portfolio/README.md) · [证据对应表](portfolio/evidence-index.md)（[CSV](portfolio/evidence-index.csv)）。只链已放入本仓库的材料和公开来源。Agenthon 团队海报原 PDF 尚未附入，这里没有海报下载链接。
+
 ---
 
 ## 🧰 Tech stack · 技术栈
