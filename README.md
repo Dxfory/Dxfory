@@ -84,4 +84,8 @@ DealMesh 为每条投研结论生成可核验的 Trust Receipt：定位原文出
 
 <p align="center"><img height="150" src="https://github-readme-stats.vercel.app/api?username=Dxfory&show_icons=true&hide_border=true"/></p>
 
+## 📂 Portfolio · 作品证据
+
+2027 Fall NUS / HKU / HKUST Quant / FinTech 的公开作品与证据对应表：[作品目录](portfolio/README.md) · [证据对应表](portfolio/evidence-index.md)
+
 📫 Let's talk evidence-grounded AI, due diligence or quant · 欢迎交流 → [LinkedIn](https://www.linkedin.com/in/zheng-xing-quant)
