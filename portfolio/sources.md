@@ -5,7 +5,7 @@
 | 项目 | 来源 | 类型 | 可证明范围 |
 |---|---|---|---|
 | Agenthon | https://www.agenthon.net/ | 官方Final榜 | abc123赛道名次与分数 |
-| Agenthon | 用户提供团队fastsim海报，PDF待本地取得后审查 | 团队技术材料 | 团队署名、技术指标与规定基准；非赛事逐项认证 |
+| Agenthon | [修订版海报](assets/agenthon-2026-t3-poster.pdf) | 团队技术材料 | Peidong Liu、Yiping Yin、Xing Zheng 与 Team abc123；880×为同机中位数，不是官方容器提速或总分提升；45项Rust测试；1.8MB为整镜像体积，release 1.26是版本而不是体积 |
 | Kaggle | 金牌证书图片及官方比赛入口 | 第三方证书 | 金牌、9/3856、证书日期与显示姓名 |
 | Kaggle | https://github.com/Dxfory/home-credit | 公开仓库自述 | 推理管线和作品链接，非个人贡献份额 |
 | EDGAR | https://github.com/Dxfory/edgar-mcp/releases/tag/v1.1.2 | 正式GitHub release | 已发布版本、4工具与安装产物 |

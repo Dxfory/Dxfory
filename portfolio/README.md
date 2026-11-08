@@ -5,7 +5,7 @@
 | 项目 | 材料页 | 当前证据 |
 |---|---|---|
 | DealMesh | [创业主项目](dealmesh.md) | 本人确认的产品与早期验证；无上线链接 |
-| Agenthon 2026 | [市场仿真竞赛](agenthon.md) | 官网Final榜；海报原件待补 |
+| Agenthon 2026 | [市场仿真竞赛](agenthon.md) | 官网Final榜；[修订版海报](assets/agenthon-2026-t3-poster.pdf) |
 | Kaggle Home Credit Stability | [金牌项目](kaggle.md) | 金牌证书；公开推理管线 |
 | 香港量化交易大赛 | [进行中参赛](hong-kong-competition.md) | 参赛经历说明 |
 | QBX跨市场研究 | [研究方法](qbx.md) | 研究经历说明；[官网](https://qbxwin.com) |
