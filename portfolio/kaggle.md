@@ -2,9 +2,13 @@
 
 ## 做了什么
 
-这场比赛考的是信用风险模型在时间漂移下能否保持稳定。我负责**时间感知的分组交叉验证**和**手工特征设计**，用消融实验和跨折稳定性检查筛选特征，让模型在时间推移后依然稳健。
+**Team gold, 9th of 3,856 (top 0.23%), Home Credit — Credit Risk Model Stability, certificate dated 2024-05-28, issued to X. Dxfory.**
 
-公开管线：Polars 对 depth-0/1/2 表做特征聚合，LightGBM + CatBoost 投票推理，再做融合与稳定性后处理。
+团队金牌，第 9 / 3,856（前 0.23%），Home Credit — Credit Risk Model Stability。证书日期 2024-05-28，证书抬头 **X. Dxfory**。证书原件保持原样。
+
+The public pipeline assembles depth-0/1/2 features in Polars, runs LightGBM and CatBoost voting, and applies a 50/50 blend plus a stability adjustment. Time-aware grouped cross-validation and the hand-built features are the training design behind that gold-medal inference stack.
+
+公开管线在 Polars 里组装 depth-0/1/2 特征，跑 LightGBM 与 CatBoost 投票，再做 50/50 融合和稳定性调整。时间感知的分组交叉验证和手工特征设计，是团队在这套金牌推理栈背后的训练设计。
 
 ## 关键数字
 
@@ -13,7 +17,9 @@
 | 名次 | **第 9 / 3,856**（前 0.23%），团队 |
 | 奖项 | **Competition Gold Medal** |
 | 证书日期 | 2024-05-28 |
-| 模型 | LightGBM · CatBoost 融合 |
+| 证书抬头 | **X. Dxfory** |
+| 模型 | LightGBM · CatBoost 融合 · 50/50 blend · stability adjustment |
+| 训练设计 | 时间感知的分组交叉验证 + 手工特征设计（团队贡献，写在推理栈背后） |
 
 ## 链接
 

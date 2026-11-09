@@ -6,6 +6,9 @@
 
 研究回测的口径：1,700+ backtests run through the research pipeline across the QBX platform and an in-house strategy factory。结构化策略 IR 的口径：690+ structured strategy IRs from the same research pipeline。
 
+目前参与 QBX 的后续完善与金融 agent 构建。
+Currently contributing to QBX's ongoing platform refinement and financial-agent development.
+
 - **假设 → 表达式**：把策略假设写成可检验的因子与策略表达式
 - **数据与因子筛选**：日频与 L2/L3 微观结构数据，按交易成本、相关性和样本外表现分层筛选
 - **门控验证**：分阶段研究集与确认集，Deflated Sharpe ≥ 0.95 门控
