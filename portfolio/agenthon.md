@@ -41,5 +41,6 @@ Team abc123（@Dxfory · @Yiping-Yin · @EscapedShark）的成绩：
 ## 链接
 
 - 赛事官网与 Final 榜：[agenthon.net](https://www.agenthon.net/)
-- 团队代码：[EscapedShark/agenthon2026-t3-neurips](https://github.com/EscapedShark/agenthon2026-t3-neurips)
+- 公开作品库：[Dxfory/neurips-2026-agenthon](https://github.com/Dxfory/neurips-2026-agenthon)（四赛道智能体与金融语义处理）
+- T3 `fastsim`：[EscapedShark/agenthon2026-t3-neurips](https://github.com/EscapedShark/agenthon2026-t3-neurips)
 - 团队海报：[agenthon-2026-t3-poster-team.png](assets/agenthon-2026-t3-poster-team.png)
