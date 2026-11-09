@@ -55,6 +55,5 @@ flowchart LR
 
 ## 链接
 
-- 公开身份页：[LinkedIn · zheng-xing-quant](https://www.linkedin.com/in/zheng-xing-quant)
 - 作品主页：[Dxfory](https://github.com/Dxfory)
 - 产品界面（demo diligence case）：[dealmesh-grounded-answer.png](assets/dealmesh-grounded-answer.png)

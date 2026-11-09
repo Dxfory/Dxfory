@@ -2,7 +2,7 @@
 
 | 项目 | 来源 | 类型 |
 |---|---|---|
-| DealMesh | [LinkedIn · zheng-xing-quant](https://www.linkedin.com/in/zheng-xing-quant) · [产品界面 demo diligence case](assets/dealmesh-grounded-answer.png) | 内测中 · 即将向公网开放注册 · 公开身份页 · 产品界面 |
+| DealMesh |  · [产品界面 demo diligence case](assets/dealmesh-grounded-answer.png) | 内测中 · 即将向公网开放注册 · 公开身份页 · 产品界面 |
 | Agenthon 2026 | [agenthon.net](https://www.agenthon.net/) | 官方 Final 榜 · NeurIPS 2026 Competition Track |
 | Agenthon 2026 | [EscapedShark/agenthon2026-t3-neurips](https://github.com/EscapedShark/agenthon2026-t3-neurips) | 团队公开代码 |
 | Agenthon 2026 | [团队海报](assets/agenthon-2026-t3-poster-team.png) | 将于 2026-12-12 在亚特兰大 NeurIPS Agenthon Workshop 展示 |

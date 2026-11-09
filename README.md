@@ -4,8 +4,7 @@
  <b>工程师 &amp; 量化交易员 · DealMesh 创始人 · Kaggle 金牌（9/3,856）· NeurIPS 2026 Agenthon T3 获奖（3/55）· 聚宽研究回测 Sharpe 2.499</b>
 </p>
 <p align="center">
- <a href="https://www.linkedin.com/in/zheng-xing-quant"><img src="https://img.shields.io/badge/LinkedIn-zheng--xing--quant-0A66C2?logo=linkedin&logoColor=white"/></a>
- <a href="https://www.agenthon.net/"><img src="https://img.shields.io/badge/NeurIPS%202026-Competition%20Track-7B2CBF"/></a>
+<a href="https://www.agenthon.net/"><img src="https://img.shields.io/badge/NeurIPS%202026-Competition%20Track-7B2CBF"/></a>
  <a href="https://github.com/Dxfory/neurips-2026-agenthon"><img src="https://img.shields.io/badge/Agenthon-2026--Team%20%C2%B7%20T3%203rd%2F55-FF6F00"/></a>
  <a href="portfolio/kaggle.md"><img src="https://img.shields.io/badge/Kaggle--Team-Gold%20%C2%B7%209th%2F3%2C856-20BEFF?logo=kaggle&logoColor=white"/></a>
  <a href="https://pypi.org/project/edgar-filings-mcp/1.1.3/"><img src="https://img.shields.io/pypi/v/edgar-filings-mcp?label=edgar-mcp%20on%20PyPI"/></a>
@@ -85,7 +84,6 @@ DealMesh 为每条投研结论生成可核验的 Trust Receipt：定位原文，
 - 🤝 **Demand validation · 需求验证:** 20+ PE/VC institution interviews in China and abroad
 - 🌏 Markets: Mainland China · Hong Kong · Singapore
 - 🏆 Selected into **Huatai Chuangxing Global CEO Accelerator** · 入选华泰创星全球 CEO 加速营
-- 🔗 Public identity: [LinkedIn · zheng-xing-quant](https://www.linkedin.com/in/zheng-xing-quant)
 
 **Architecture · 架构**
 
@@ -167,4 +165,4 @@ flowchart LR
 
 [作品目录](portfolio/README.md) · [证据对应表](portfolio/evidence-index.md)
 
-📫 Evidence-grounded AI agents · quant research · due diligence — [LinkedIn](https://www.linkedin.com/in/zheng-xing-quant)
+📫 Evidence-grounded AI agents · quant research · due diligence
