@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fff0f4">
+<title>喵喵猜拳屋 🐱 | 和糯米一起玩</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:ui-rounded,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#775c78}body{background:linear-gradient(150deg,#ffeaf1,#fff7e9 58%,#eeeaff);padding:18px 12px 34px}.wrap{max-width:440px;margin:auto}.decor{text-align:center;color:#c4a2bb;letter-spacing:2px;font-size:11px;font-weight:800;padding-top:10px}h1{text-align:center;color:#a16d9c;margin:9px 0;font-size:29px;letter-spacing:1px}.sub{text-align:center;color:#ab97a6;font-size:12px;margin:0 0 18px}.invitation{background:#fffdfbe8;border:1px solid #f5dbe6;border-radius:19px;padding:12px 15px 11px;box-shadow:0 4px 14px #c999b517;margin:0 0 17px}.invite-title{font-size:13px;color:#c67b9f;font-weight:900;margin-bottom:6px}.invitation p{font-size:12px;color:#967d96;line-height:1.75;margin:0}.invitation b{color:#b476a0}.scoreboard{display:grid;grid-template-columns:1fr 34px 1fr;gap:7px;align-items:center}.score{background:#ffffffbd;border:1px solid white;border-radius:20px;text-align:center;padding:13px 8px;box-shadow:0 5px 16px #cd9eae12}.slabel{color:#9b859f;font-size:12px;font-weight:800}.num{font-size:33px;font-weight:900;color:#dc839f;margin-top:3px}.purple{color:#a38ad5}.vs{text-align:center;font-size:13px;font-weight:900;color:#baa9bd}.barline{display:flex;justify-content:space-between;font-size:11px;font-weight:750;color:#9e8aa0;margin:17px 2px 7px}.bar{background:#fff;border-radius:50px;height:9px;overflow:hidden}.bar>div{height:100%;width:0;background:linear-gradient(90deg,#ffadbd,#a99be4);transition:width .4s}.stage{background:#ffffffb8;border:1px solid white;border-radius:26px;position:relative;margin-top:17px;padding:18px 14px 17px;text-align:center;box-shadow:0 12px 27px #b68ab213}.bubble{border:1px solid #f0dce9;background:#fff;border-radius:16px;color:#9d779e;font-weight:800;font-size:12px;padding:11px;max-width:310px;margin:auto;min-height:40px;position:relative}.bubble:after{content:"";width:9px;height:9px;transform:rotate(45deg);position:absolute;bottom:-5px;left:calc(50% - 5px);background:white;border-right:1px solid #f0dce9;border-bottom:1px solid #f0dce9}.star{position:absolute;font-size:19px;pointer-events:none;animation:float 3s ease-in-out infinite}.star.a{left:11%;top:80px}.star.b{right:12%;top:155px;animation-delay:-1.3s}.cat{width:175px;height:157px;display:block;margin:6px auto 0;filter:drop-shadow(0 8px 7px #c69da43d);animation:float 2.7s ease-in-out infinite}.hands{display:flex;justify-content:center;gap:12px;align-items:center;margin-top:-1px}.hand{width:74px;height:72px;border:1px solid #f7d9e2;background:#fff0f3;border-radius:19px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}.hand.ai{background:#f0ebff;border-color:#e4dff2}.hand .emoji{font-size:29px;line-height:1}.hand .who{font-size:10px;font-weight:800;color:#a78ca5}.heart{font-size:22px;color:#e8bdd3}.result{min-height:39px;color:#926b9a;font-weight:900;font-size:14px;padding:12px 0 0}.choose-title{text-align:center;font-weight:900;color:#a07c9a;font-size:14px;margin:21px 0 12px}.choices{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.choice{border:2px solid #f4deea;background:#fff;border-radius:20px;min-height:100px;cursor:pointer;touch-action:manipulation;color:#846f89;font-weight:900;font-size:13px;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;transition:transform .13s,background .13s}.choice .em{font-size:35px;line-height:1}.choice:active{transform:scale(.94);background:#ffeef5}.choice:disabled{opacity:.45}.choice:focus-visible,button:focus-visible{outline:3px solid #a88ce6;outline-offset:3px}.brain{display:flex;gap:11px;align-items:center;background:#ffffffb8;border:1px solid white;border-radius:18px;padding:13px 15px;margin-top:14px}.brain-icon{font-size:27px}.brain h3{font-size:12px;color:#92719e;margin:0 0 3px}.brain p{font-size:11px;line-height:1.6;color:#a08da4;margin:0}.end{display:none;margin-top:14px;background:white;border:1px solid #f2dce7;border-radius:19px;padding:16px;text-align:center}.end.show{display:block}.end .cup{font-size:37px}.end h2{color:#946b9b;font-size:21px;margin:4px 0}.end p{color:#967f9d;font-size:12px;line-height:1.5}.primary{border:0;border-radius:100px;background:#df8eaf;color:white;font-weight:900;padding:12px 25px;cursor:pointer}.foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:16px}.reset{border:1px solid #e5d5e4;border-radius:100px;background:#fff9ff;color:#98779b;font-weight:800;padding:10px 15px;cursor:pointer}.hint{font-size:10px;color:#ab97a9;text-align:right;line-height:1.5}.pop{animation:pop .32s ease-out}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}@keyframes pop{0%{transform:scale(.7)}75%{transform:scale(1.12)}100%{transform:scale(1)}}@media(prefers-reduced-motion:reduce){.star,.cat,.pop{animation:none}}@media(min-width:700px){body{padding-top:35px}.stage{padding:23px}}
+</style>
+<meta name="description" content="喵喵猜拳屋：和奶油色小猫糯米玩十回合的可爱猜拳小游戏。简单好玩、手机随时打开。">
+</head>
+<body>
+<main class="wrap">
+<div class="decor">✿ CUTE KITTY MINI GAME ✿</div>
+<h1>喵喵猜拳屋 🐾</h1>
+<p class="sub">奶油色小猫糯米，等你来陪它玩 ♡</p>
+<aside class="invitation"><div class="invite-title">💌 糯米的邀请函</div><p>“喵呜～我是糯米！陪我猜拳 <b>10 回合</b> 好不好？点一下<b>石头、剪刀或布</b>就能出拳啦。偷偷告诉你，我会记住你的小习惯哦～”</p></aside>
+<div class="scoreboard"><div class="score"><div class="slabel">🌷 你的得分</div><div class="num" id="humanScore">0</div></div><div class="vs">VS</div><div class="score"><div class="slabel">🐱 猫猫得分</div><div class="num purple" id="catScore">0</div></div></div>
+<div class="barline"><span id="round">第 1 / 10 回合</span><span id="streak">✨ 连胜 0 次</span></div><div class="bar"><div id="progress"></div></div>
+<section class="stage">
+<span class="star a">✦</span><span class="star b">💗</span>
+<div class="bubble" id="speech" aria-live="polite">喵～你终于来了！我是糯米，快出拳吧！</div>
+<svg class="cat" viewBox="0 0 180 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="微笑的奶油色小猫">
+<ellipse cx="91" cy="143" rx="61" ry="9" fill="#e5d0d6" opacity=".4"/>
+<path d="M137 112 Q175 109 159 83 Q153 75 148 91" stroke="#efd0b2" stroke-width="15" stroke-linecap="round" fill="none"/>
+<ellipse cx="92" cy="112" rx="48" ry="36" fill="#ffe7c9" stroke="#dfc3af" stroke-width="2.5"/>
+<path d="M51 59 L45 14 Q45 8 52 12 L79 30 Q92 25 105 29 L135 10 Q142 7 140 18 L132 66" fill="#ffe6c8" stroke="#dfc3af" stroke-width="3" stroke-linejoin="round"/>
+<path d="M54 24 L58 47 L77 34Z M131 23 L124 47 L108 34Z" fill="#f7b9bd"/>
+<ellipse cx="92" cy="72" rx="57" ry="49" fill="#ffe7c9" stroke="#dfc3af" stroke-width="2.5"/>
+<path d="M77 28 Q92 43 105 28" stroke="#f5cfaf" stroke-width="4" stroke-linecap="round" fill="none"/>
+<ellipse cx="58" cy="82" rx="14" ry="8" fill="#ffabb6" opacity=".72"/><ellipse cx="127" cy="82" rx="14" ry="8" fill="#ffabb6" opacity=".72"/>
+<path d="M64 67 Q72 58 80 67 M106 67 Q114 58 122 67" fill="none" stroke="#775e65" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M88 77 Q92 73 96 77 Q92 82 88 77Z" fill="#d48f91"/>
+<path d="M92 81 Q87 88 83 83 M92 81 Q97 88 101 83" fill="none" stroke="#987678" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M57 78 L39 75 M58 85 L41 88 M127 78 L145 75 M127 85 L145 88" stroke="#c6a5a0" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M75 105 Q92 118 109 105 L111 113 Q92 126 73 113Z" fill="#f4a7ba"/>
+<path d="M92 119 L86 130 L98 130Z" fill="#d48ba5"/>
+<ellipse cx="69" cy="132" rx="18" ry="11" fill="#fff0df" stroke="#dfc3af" stroke-width="2"/>
+<ellipse cx="115" cy="132" rx="18" ry="11" fill="#fff0df" stroke="#dfc3af" stroke-width="2"/>
+<path d="M65 130 L65 134 M73 130 L73 134 M111 130 L111 134 M119 130 L119 134" stroke="#dfc3af" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M151 32 L155 40 L164 42 L156 46 L153 54 L149 46 L142 43 L149 40Z" fill="#f3bfca"/>
+</svg>
+<div class="hands"><div class="hand"><span id="humanHand" class="emoji">❔</span><span class="who">你</span></div><span class="heart">♡</span><div class="hand ai"><span id="catHand" class="emoji">❔</span><span class="who">猫猫</span></div></div>
+<div class="result" id="result" aria-live="polite">选一个手势，开始挑战吧～</div>
+</section>
+<div class="choose-title" id="chooseTitle">你要出什么？</div>
+<div class="choices"><button class="choice" data-move="rock"><span class="em">✊</span><span>石头</span></button><button class="choice" data-move="paper"><span class="em">✋</span><span>布</span></button><button class="choice" data-move="scissors"><span class="em">✌️</span><span>剪刀</span></button></div>
+<div class="brain"><div class="brain-icon">🧠</div><div><h3 id="brainTitle">糯米的小心思 · Lv.1</h3><p id="brainText">糯米正在偷偷学习你爱出的手势，越玩越懂你喵～</p></div></div>
+<div class="end" id="end"><div class="cup" id="endIcon">🏆</div><h2 id="endTitle"></h2><p id="endText"></p><button class="primary" id="again">再玩一局 ♡</button></div>
+<div class="foot"><button class="reset" id="reset">↻ 重新开始</button><div class="hint">免费 · 手机电脑都能玩<br>猫猫会学习 · 无需注册</div></div>
+</main>
+<script>
+(function(){
+"use strict";
+var el=function(id){return document.getElementById(id)};
+var keys=["rock","paper","scissors"];
+var info={rock:{emoji:"✊",name:"石头"},paper:{emoji:"✋",name:"布"},scissors:{emoji:"✌️",name:"剪刀"}};
+var counter={rock:"paper",paper:"scissors",scissors:"rock"};
+var moves=[],wins=0,losses=0,draws=0,streak=0,done=false;
+var buttons=[].slice.call(document.querySelectorAll("[data-move]"));
+function predict(){
+  var base=[1,1,1];moves.forEach(function(m){base[keys.indexOf(m)]++});
+  var total=base.reduce(function(a,b){return a+b},0),p=base.map(function(v){return v/total});
+  if(moves.length>1){
+    var last=moves[moves.length-1],trans=[1,1,1],n=0;
+    for(var i=1;i<moves.length;i++){if(moves[i-1]===last){trans[keys.indexOf(moves[i])]++;n++}}
+    if(n){var w=n/(n+3);p=p.map(function(v,i){return v*(1-w)+trans[i]/(n+3)*w})}
+  }
+  var idx=0;for(var j=1;j<3;j++){if(p[j]>p[idx])idx=j}
+  return {move:keys[idx],confidence:Math.round(p[idx]*100)};
+}
+function animate(e){e.classList.remove("pop");void e.offsetWidth;e.classList.add("pop")}
+function render(){
+ el("humanScore").textContent=wins;el("catScore").textContent=losses;
+ el("round").textContent=done?"已完成 10 / 10 回合":"第 "+(moves.length+1)+" / 10 回合";
+ el("streak").textContent="✨ 连胜 "+streak+" 次";el("progress").style.width=(moves.length*10)+"%";
+ var n=moves.length;el("brainTitle").textContent="糯米的小心思 · Lv."+(n<3?1:n<6?2:3);
+ el("brainText").textContent=n===0?"糯米正在偷偷学习你爱出的手势，越玩越懂你喵～":
+ "已记住 "+n+" 次出拳 · 糯米猜你会出："+info[predict().move].name+"（"+predict().confidence+"%）· 嘘，这是糯米的小秘密";
+}
+function play(human){
+ if(done)return;
+ var predicted=predict(),p=moves.length<2?0:Math.min(.86,.45+moves.length*.045);
+ var ai=Math.random()<p?counter[predicted.move]:keys[Math.floor(Math.random()*3)];
+ var win=counter[ai]===human,lose=counter[human]===ai;
+ if(human===ai){draws++;streak=0;el("result").textContent="🤝 平局！心有灵犀喵～";el("speech").textContent="居然和你想到一块了！"}
+ else if(win){wins++;streak++;el("result").textContent="🎉 你赢啦！太厉害了！";el("speech").textContent=streak>=3?"呜喵！你怎么这么厉害！":"被你猜中啦！糯米要努力练习！"}
+ else if(lose){losses++;streak=0;el("result").textContent="🐾 糯米赢啦！";el("speech").textContent="嘿嘿，抓到你的小规律啦～"}
+ moves.push(human);el("humanHand").textContent=info[human].emoji;el("catHand").textContent=info[ai].emoji;
+ animate(el("humanHand"));animate(el("catHand"));
+ if(moves.length===10){
+  done=true;buttons.forEach(function(b){b.disabled=true});el("chooseTitle").textContent="本局结束啦 ♡";el("end").classList.add("show");
+  if(wins>losses){el("endIcon").textContent="🏆";el("endTitle").textContent="恭喜！你是猜拳大师！";el("endText").textContent="你以 "+wins+":"+losses+" 战胜猫猫！下一局再来挑战～"}
+  else if(wins===losses){el("endIcon").textContent="💗";el("endTitle").textContent="势均力敌的好朋友！";el("endText").textContent="双方 "+wins+":"+losses+" 平手，还有 "+draws+" 次平局。"}
+  else{el("endIcon").textContent="🐱";el("endTitle").textContent="糯米赢啦！喵～";el("endText").textContent="猫猫以 "+losses+":"+wins+" 获胜。换个出拳规律再试试！"}
+  el("speech").textContent=wins>losses?"输了也很开心，喵！":"谢谢陪我玩，下局见喵～";
+ }
+ render();
+}
+function reset(){moves=[];wins=0;losses=0;draws=0;streak=0;done=false;buttons.forEach(function(b){b.disabled=false});
+ el("chooseTitle").textContent="你要出什么？";el("humanHand").textContent="❔";el("catHand").textContent="❔";
+ el("result").textContent="选一个手势，开始挑战吧～";el("speech").textContent="喵～你终于来了！我是糯米，快出拳吧！";
+ el("end").classList.remove("show");render();
+}
+buttons.forEach(function(b){b.addEventListener("click",function(){play(b.getAttribute("data-move"))})});
+el("reset").addEventListener("click",reset);el("again").addEventListener("click",reset);render();
+})();
+</script>
+</body></html>
