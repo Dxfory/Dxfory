@@ -2,7 +2,7 @@
 
 ## 做了什么
 
-独立设计、实现并发布了一个 MCP 服务：Cursor、Claude 等智能体可以直接调用 SEC 披露数据，并且每个数字都附带 accession、期间、XBRL 概念和 EDGAR 链接，可以逐条回查原始文件。
+独立设计、实现并发布了一个开源 MCP 服务：任何兼容 MCP 的智能体都可以直接调用 SEC 披露数据，并且每个数字都附带 accession、期间、XBRL 概念和 EDGAR 链接，可以逐条回查原始文件。
 
 4 个工具：
 1. `get_trading_symbols`：10-K / 10-Q 中的全部交易代码
