@@ -19,7 +19,7 @@
 - ⚡ **fastsim — 880× median same-machine speed-up** · row-exact Rust rewrite of ABIDES · Team abc123 · Rust 市场仿真
 - 🔌 **edgar-mcp — shipped on [PyPI](https://pypi.org/project/edgar-filings-mcp/1.1.3/) + [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.Dxfory/edgar-mcp)** · SEC filings for AI agents, every number cited
 - 📚 **local-feed-wiki — open-source local wiki for your RSS, podcast and YouTube feeds** · immutable `raw/` evidence, regenerable `wiki/`, a minority page that shows disagreeing sources side by side · MIT · [repo](https://github.com/Dxfory/local-feed-wiki) · 开源：把订阅源整理成可重建的本地 wiki，来源分歧并排展示
-- 🚀 **DealMesh — AI trust infrastructure that makes every AI conclusion traceable to its source evidence** · in private beta, opening public sign-up to everyone soon · PE/VC due diligence first, AI going global second · 452 commits · 3,286 passing tests · DealMesh 是 AI 可信基础设施，让 AI 结论能追溯到原始证据 · 内测中，即将向所有人开放公开注册
+- 🚀 **DealMesh — AI trust infrastructure that makes every AI conclusion traceable to its source evidence** · Private beta · public sign-up opening soon · PE/VC due diligence first, AI going global second · 452 commits · 3,286 passing tests · DealMesh 是 AI 可信基础设施，让 AI 结论能追溯到原始证据 · 内测中 · 即将向公网开放注册
 - 🧪 **QBX — hundreds of platform-certified strategies across US + A-share, L1/L2 data** · 美股 + A 股数百条平台认证策略
   - Currently contributing to QBX's ongoing platform refinement and financial-agent development. · 目前参与 QBX 的后续完善与金融 agent 构建。
 
